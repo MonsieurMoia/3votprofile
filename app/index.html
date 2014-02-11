@@ -16,7 +16,7 @@
     <!-- endbuild -->
   </head>
   <body>
-    <div class="container">
+    <div class="page-3vot container">
       <div class="row">
         <div class="navbar-3vot navbar navbar-default navbar-fixed-top" role="navigation">
           <div class="container">
@@ -29,12 +29,9 @@
                 <div class="form-group">
                   <input type="text" class="form-control " placeholder="Search" value="3VOT">
                 </div>
-                <a href="#" type="submit" class="text-muted"><span class="glyphicon glyphicon-search"></span></a>
-              </form>
-
-              
-
-              <form class="navbar-form navbar-left" role="search">
+                <a href="#" type="submit" class="text-muted">
+                  <span class="glyphicon glyphicon-search input-glyph"></span>
+                </a>
                 <span class="glyphicon glyphicon-chevron-right text-muted"></span>
                 <div class="btn-group">
                   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
@@ -77,9 +74,9 @@
 
         <div class="row">
           <div class="col-md-12">
-
-            <div class="col-md-3 profile-sidebar-3vot">
-              <div class="profile-info-3vot">
+            
+            <div class="col-md-3 profile-sidebar-3vot" >
+              <div class="profile-info-3vot" >
                 <h1 class="text-primary">3VOT Corp</h1>
                 <small class="text-muted">Enterprise - 34 Apps</small>
                 <p>Front End as a Service to build Enterprise Apps 5x Times Faster.</p>
@@ -94,27 +91,30 @@
             <div class="appstore-3vot col-md-9">
 
               <div class="row">
-                <div class="appstore-nav-3vot">
+                <div class="appstore-nav-3vot" data-spy="affix" data-offset-top="225">
                   <form class="form-inline" role="form">
-                    
                     <div class="form-group">
                       <button type="" class="btn btn-primary">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apps&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </button>
-                    </div>
-<div class="form-group">                       <input type="text" class="form-
-control input-sm" placeholder="Search"><span class="glyphicon glyphicon-search
-text-muted"></span>                     </div>                     <div class
-="form-group pull-right">                       <button class="dropdown btn
-btn-link">                         <a href="#" class="dropdown-toggle text-
-muted" data-toggle="dropdown">Categories <b class="caret"></b></a>
-<ul class="dropdown-menu dropdown-menu-right">
-<li><a href="#">Public Apps</a></li>                           <li
-class="divider"></li>                           <li><a href="#">Employee
-Apps</a></li>                           <li class="divider"></li>
-<li><a href="#">Summer Apps</a></li>                         </ul>
-</button>                     </div>                   </form>
-</div>               </div> 
+                    </div><!-- Form Group-->
+                    <div class="form-group">
+                      <input type="text" class="form-control input-sm" placeholder="Search">
+                      <span class="glyphicon glyphicon-search text-muted"></span>
+                    </div><!-- Form Group -->
+                    <div class="form-group pull-right">
+                      <button class="dropdown btn btn-link">
+                        <a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown">Categories <b class="caret"></b></a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                          <li><a href="#">Public Apps</a></li>
+                          <li><a href="#">Employee Apps</a></li>
+                          <li><a href="#">Summer Apps</a></li>
+                        </ul>
+                      </button><!-- Dropdown Button -->
+                    </div> <!-- Form group -->
+                  </form> <!-- Appstore Nav Form -->
+                </div><!-- Appstore Nav 3vot -->               
+              </div> <!-- Row -->
             
               <div class="row">
                 <div class="appstore-apps-3vot col-md-12">
@@ -152,7 +152,7 @@ Apps</a></li>                           <li class="divider"></li>
 
   
   <!-- Modal -->
-  <div class="modal fade" id="app-3vottutorial" tabindex="-1" role="dialog" aria-labelledby="app-3vottutorial" aria-hidden="true">
+  <div class="modal fade app-modal" id="app-3vottutorial" tabindex="-1" role="dialog" aria-labelledby="app-3vottutorial" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
