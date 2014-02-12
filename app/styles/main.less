@@ -7,12 +7,22 @@
 
 body {
 	padding: 40px 0;
+}
 
-	.page-3vot {
-		-webkit-transition: all 0.2s ease;
-		-moz-transition: all 0.2s ease;
-		-o-transition: all 0.2s ease;
-		transition: all 0.2s ease;
+.navbar-3vot {
+		// height: 40px;
+		.input-glyph {
+			position: relative;
+			margin-left: -19px;
+			left: -15px;
+			top: 1px;
+		}
+		.navbar-logo-3vot {
+			height: 24px;
+		}	
+	}
+.page-3vot {
+		
 	}
 
 	.appstore-3vot {
@@ -23,6 +33,7 @@ body {
 			width: 63%;
 			z-index: 1;
 			top: 51px;
+			.box-shadow (0 2px 5px @gray-lighter);
 		}
 		.appstore-apps-3vot {
 			padding: 20px;
@@ -36,25 +47,12 @@ body {
 			}
 		}
 	}
-
-	.navbar-3vot {
-		// height: 40px;
-		.input-glyph {
-			position: relative;
-			margin-left: -19px;
-			left: -15px;
-			top: 1px;
-		}	
-	}
-
 	.profile-3vot {
-		.profile-header-3vot {
-
-		}
 		.profile-sidebar-3vot {
 			padding-bottom: @padding-large-vertical;
-			&.appstore-sidebar-affix {
-			
+			& .appstore-sidebar-affix {
+				width: 20%;
+				top: 51px;
 			}
 		}
 		.divider {border: 1px solid @gray-light;}
@@ -67,4 +65,3 @@ body {
 		-ms-filter: blur(2px); 
 	}
 
-}

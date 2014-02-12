@@ -14,12 +14,13 @@ $( document ).ready(function() {
 
    $('.appstore-nav-3vot').on('affix.bs.affix', function (e) {
   		$('.appstore-nav-3vot').addClass('appstore-nav-affix');
+  		$('.profile-info-3vot').addClass('appstore-sidebar-affix');
 	})
 
    $('.appstore-nav-3vot').on('affixed-top.bs.affix', function (e) {
   		$('.appstore-nav-3vot').removeClass('appstore-nav-affix');
+  		$('.profile-info-3vot').removeClass('appstore-sidebar-affix');
 	})
-
 
 
    
